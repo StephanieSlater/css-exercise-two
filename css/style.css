@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffff;
+  color: #2F4F4F;
+  font-size: 16px;
 }
 
 nav {
@@ -32,6 +33,55 @@ nav {
   float: right;
 }
 
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+a:link {
+  color: #ffff;
+}
+
+a:visited {
+  color: #0070BA;
+}
+
+a:hover {
+  color: #0070BC;
+}
+
+a:active {
+  color: #0070BD;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding-bottom: 0.2em;
+}
+
+figcaption {
+  padding-top: 0.4em;
+  padding-bottom: 1.2em;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+p {
+  line-height:1.4em;
+  padding-bottom: 0.7em;
+}
+
+.author {
+  padding-top: 1em;
+  padding-bottom: 0.9em;
+  text-transform: uppercase;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -40,6 +90,7 @@ ul {
 li {
   float: right;
   padding: 30px;
+  font-size: 80%;
 }
 
 article {
